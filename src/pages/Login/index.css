@@ -1,0 +1,40 @@
+.login-main{
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../../assets/img/背景.jpg');
+  background-size:cover;
+  position: relative;
+  
+}
+.login {
+    position: absolute;
+    height: 250px;
+    width: 300px;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    margin-top: -125px;
+    margin-left: -150px;
+}
+.title{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+.input_sty{
+    width: 250px;
+    margin-bottom: 15px;
+    margin-left: 25px
+}
+.login_code {
+    display: flex;
+}
+.input_code{
+    width: 200px;
+    margin-left: 25px;
+}
+.login_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

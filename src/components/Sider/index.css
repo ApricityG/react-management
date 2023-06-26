@@ -1,0 +1,35 @@
+.sider-sty {
+  height: 100vh;
+}
+.title_logo {
+  display: flex;
+  padding-left: 15px;
+  padding-top: 20px;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+}
+.logo {
+  width: 60px;
+  /* height: 60px; */
+}
+.menu {
+  margin-top: 20px;
+}
+.student_icon_title {
+  width: 200px;
+  opacity: 0;
+  animation: show-up 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  margin-left: 10px;
+}
+
+@keyframes show-up {
+  from {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

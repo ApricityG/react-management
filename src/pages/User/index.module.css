@@ -1,0 +1,13 @@
+.subfield {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.selectApartment {
+  flex: 2;
+  background-color: aqua;
+}
+.userDetail {
+  flex: 5;
+  background-color: beige;
+}
